@@ -59,7 +59,8 @@ def accueil():
 
             menu_title=None,
 
-            options = ["Accueil", "Photos de bébé phoque"]
+            options = ["Accueil", "Photos de bébé phoque"],
+            icons = ['folder', 'person-bounding-box']
 
         )
     
