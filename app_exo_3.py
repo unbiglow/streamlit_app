@@ -9,7 +9,7 @@ from streamlit_authenticator import Authenticate
 url ="https://raw.githubusercontent.com/unbiglow/my_csv/refs/heads/main/users.csv"
 
 df = pd.read_csv(url)
-
+st.write("Username : root, Mdp : 123")
 #st.write(df)
 
 df = pd.read_csv(url)
